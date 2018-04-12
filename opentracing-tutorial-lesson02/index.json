@@ -1,0 +1,35 @@
+{
+  "title": "OpenTracing Tutorial - Lesson 2",
+  "description": "Learn about the 'Tracing Context' and how to trace individual functions",
+  "details": {
+    "steps": [
+      {
+        "title": "Tracing individual functions",
+        "text": "01-tracing-individual-functions.md"
+      },
+      {
+        "title": "Propagate the in-process context",
+        "text": "02-propagate.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "This scenario is based on the OpenTracing tutorial located at https://github.com/yurishkuro/opentracing-tutorial"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "opentracing-tutorial/java/src/main/java/lesson02/exercise/Hello.java"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jaeger UI", "port": 16686}]
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}

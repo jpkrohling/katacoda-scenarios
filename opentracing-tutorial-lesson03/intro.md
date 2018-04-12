@@ -1,0 +1,3 @@
+In lessons 1 and 2, we've seen what are the basic concepts used in OpenTracing, what is the Trace Context and how to link spans together, to form one single trace. However, distributed systems are very common nowadays, specially in the shape of microservices, so, having a trace for a single process wouldn't help us much in understanding the big picture on a complex distributed system.
+
+In this lesson, we'll learn how to propagate the context across process boundaries, so that we have one single trace with spans from different microservices.

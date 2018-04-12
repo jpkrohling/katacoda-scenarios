@@ -1,0 +1,1 @@
+In lesson 1, we saw the basic concepts for OpenTracing. In this lesson, you'll learn about the tracing context, which is how we tie spans together, so that we are able to form a graph-like structure (a DAG, to be more precise).

@@ -1,0 +1,1 @@
+The complete program can be found in the [solution](./solution) package. We moved the `initTracer` helper function into its own package `lib` so that we can reuse it in the other lessons as `Tracing.init()`.

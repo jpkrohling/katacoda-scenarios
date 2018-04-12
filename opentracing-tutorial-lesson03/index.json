@@ -1,0 +1,50 @@
+{
+  "title": "OpenTracing Tutorial - Lesson 3",
+  "description": "Learn about how to build traces with spans across distributed systems",
+  "details": {
+    "steps": [
+      {
+        "title": "Hello-World Microservice App",
+        "text": "01-hello-world-microservices-app.md"
+      },
+      {
+        "title": "Inter-Process Context Propagation",
+        "text": "02-inter-process-context-propagation.md"
+      },
+      {
+        "title": "Instrumenting the Client",
+        "text": "03-instrumenting-the-client.md"
+      },
+      {
+        "title": "Instrumenting the Servers",
+        "text": "04-instrumenting-the-servers.md"
+      },
+      {
+        "title": "Take It For a Spin",
+        "text": "05-take-it-for-a-spin.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "This scenario is based on the OpenTracing tutorial located at https://github.com/yurishkuro/opentracing-tutorial"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "opentracing-tutorial/java/src/main/java/lesson03/exercise/Hello.java",
+    "opentracing-tutorial/java/src/main/java/lesson03/exercise/Formatter.java",
+    "opentracing-tutorial/java/src/main/java/lesson03/exercise/Publisher.java",
+    "opentracing-tutorial/java/src/main/java/lesson03/exercise/RequestBuilderCarrier.java"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jaeger UI", "port": 16686}]
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}

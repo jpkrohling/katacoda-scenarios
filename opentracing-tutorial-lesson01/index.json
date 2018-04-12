@@ -1,0 +1,43 @@
+{
+  "title": "OpenTracing Tutorial - Lesson 1",
+  "description": "Learn the basic OpenTracing concepts with this scenario",
+  "details": {
+    "steps": [
+      {
+        "title": "A simple Hello-World program",
+        "text": "01-hello-world.md"
+      },
+      {
+        "title": "Create a trace",
+        "text": "02-create-trace.md"
+      },
+      {
+        "title": "Initialize a real tracer",
+        "text": "03-initialize-real-tracer.md"
+      },
+      {
+        "title": "Annotate the Trace with Tags and Logs",
+        "text": "04-annotate-trace-with-tags.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "This scenario is based on the OpenTracing tutorial located at https://github.com/yurishkuro/opentracing-tutorial"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "opentracing-tutorial/java/src/main/java/lesson01/exercise/Hello.java"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jaeger UI", "port": 16686}]
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}

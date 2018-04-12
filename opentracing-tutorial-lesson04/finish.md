@@ -1,0 +1,1 @@
+This concludes our OpenTracing tutorial. Make sure to check out the [OpenTracing documentation](http://opentracing.io/documentation/) and [join our community](http://gitter.im/opentracing/public)!

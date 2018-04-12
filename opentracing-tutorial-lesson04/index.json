@@ -1,0 +1,50 @@
+{
+  "title": "OpenTracing Tutorial - Lesson 4",
+  "description": "Learn how to use baggage items. And when not to!",
+  "details": {
+    "steps": [
+      {
+        "title": "Set Baggage in the Client",
+        "text": "01-set-baggage-in-the-client.md"
+      },
+      {
+        "title": "Read Baggage in Formatter",
+        "text": "02-read-baggage-in-formatter.md"
+      },
+      {
+        "title": "Run it",
+        "text": "03-run-it.md"
+      },
+      {
+        "title": "What's the Big Deal?",
+        "text": "04-whats-the-big-deal.md"
+      },
+      {
+        "title": "Now, a Warning... NOW a Warning?",
+        "text": "05-now-a-warning.md"
+      }
+    ],
+    "intro": {
+      "text": "intro.md",
+      "code": "env-init.sh",
+      "credits": "This scenario is based on the OpenTracing tutorial located at https://github.com/yurishkuro/opentracing-tutorial"
+    },
+    "finish": {
+      "text": "finish.md"
+    }
+  },
+  "files": [
+    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Hello.java",
+    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Formatter.java",
+    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Publisher.java",
+    "opentracing-tutorial/java/src/main/java/lesson04/exercise/RequestBuilderCarrier.java"
+  ],
+  "environment": {
+    "uilayout": "editor-terminal",
+    "showdashboard": true,
+    "dashboards": [{"name": "Jaeger UI", "port": 16686}]
+  },
+  "backend": {
+    "imageid": "docker"
+  }
+}
