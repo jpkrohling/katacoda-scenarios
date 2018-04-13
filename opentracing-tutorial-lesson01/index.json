@@ -38,6 +38,6 @@
     "dashboards": [{"name": "Jaeger UI", "port": 16686}]
   },
   "backend": {
-    "imageid": "docker"
+    "imageid": "ubuntu"
   }
 }
