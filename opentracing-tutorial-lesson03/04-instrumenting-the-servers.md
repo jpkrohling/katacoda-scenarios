@@ -31,7 +31,7 @@ import lib.Tracing;
 
 #### Extract the span context from the incoming request using `tracer.extract`
 
-First, add a helper function:
+First, let's add a helper function on the Hello class:
 
 <pre class="file" data-target="clipboard">
 public static Scope startServerSpan(Tracer tracer, javax.ws.rs.core.HttpHeaders httpHeaders, String operationName) {
@@ -90,6 +90,7 @@ import javax.ws.rs.core.Context;
 import javax.ws.rs.core.HttpHeaders;
 </pre>
 
+It would be better to have this in a more appropriate place. We've prepared a `Tracing` class under the `lib` package: that's what we'll be using in the future.
 
 #### Apply the same to the Publisher
 
