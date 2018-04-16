@@ -35,9 +35,7 @@
   },
   "files": [
     "opentracing-tutorial/java/src/main/java/lesson04/exercise/Hello.java",
-    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Formatter.java",
-    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Publisher.java",
-    "opentracing-tutorial/java/src/main/java/lesson04/exercise/RequestBuilderCarrier.java"
+    "opentracing-tutorial/java/src/main/java/lesson04/exercise/Formatter.java"
   ],
   "environment": {
     "uilayout": "editor-terminal",
