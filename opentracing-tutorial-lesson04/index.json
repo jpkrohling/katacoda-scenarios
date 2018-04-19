@@ -39,6 +39,7 @@
   ],
   "environment": {
     "uilayout": "editor-terminal",
+    "uieditorpath": "/root/opentracing-tutorial",
     "showdashboard": true,
     "dashboards": [{"name": "Jaeger UI", "port": 16686}]
   },
